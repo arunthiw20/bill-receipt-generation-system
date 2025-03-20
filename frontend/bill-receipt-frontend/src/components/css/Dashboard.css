@@ -1,0 +1,85 @@
+.dashboard {  
+    display: grid;
+    grid-template-columns: 0.4fr 1.6fr 1fr;
+    grid-template-rows: 0.5fr 2.6fr 2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "ontop ontop ontop"
+      "sidenav dynamiccontent dynamiccontent"
+      "sidenav dynamiccontent dynamiccontent";
+  }
+  
+  .ontop {
+    grid-area: ontop;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1%;
+  }
+  
+  .sidenav { grid-area: sidenav; }
+  
+  .dynamiccontent { 
+    grid-area: dynamiccontent; 
+  }
+
+  .dashboard-list{
+    list-style: none;
+    padding-left: 1rem;
+  }
+
+  #billform {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bill-lable{
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .bill-input{
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .toppadding {
+    padding-top: 2%;
+  }
+  
+
+
+
+
+
+  .dashboard-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-list li {
+    margin-bottom: 10px;
+  }
+  
+  .btnn {
+    display: inline-block;
+    width: 110px;
+    background-color: #f8f9fa;
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius:1%
+  }
+  
+  .dashboard-list .btnn:hover {
+    background-color: #e9ecef;
+  }
+  
+  .dashboard-list .btnn.active {
+    background-color: #007bff;
+    color: white;
+    border-left-color: #0056b3;
+  }
+  

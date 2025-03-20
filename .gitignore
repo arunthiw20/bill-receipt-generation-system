@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+*.env
+
+# Build directories (React and Express)
+frontend/build/
+backend/dist/
+
+# Package lock files (if you don't want them tracked)
+package-lock.json
+yarn.lock
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
