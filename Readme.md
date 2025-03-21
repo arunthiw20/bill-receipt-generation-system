@@ -29,7 +29,7 @@ Make sure you have the following installed:
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/your-username/bill-receipt-generation-system.git
+git clone https://github.com/arunthiw20/bill-receipt-generation-system.git
 cd bill-receipt-generation-system
 ```
 
